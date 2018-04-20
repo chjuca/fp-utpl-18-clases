@@ -1,0 +1,17 @@
+** Actividad 3 **
+
+
+1. Inicio
+2. x,y (i[0-n])
+3. <<"Ingrese el valor de X:"
+4. >>x
+5. Si(x<>0)Entonces
+   Si(x<0)Entonces
+        y=3*x+10
+   Sino
+        y=x*2+6
+    Fin_si
+Sino
+    y=1
+6. <<"El valor de X es:",+x,"y el valor de Y es:",+y"
+7.Fin

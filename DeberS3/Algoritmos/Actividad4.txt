@@ -1,0 +1,27 @@
+** Actividad 4 **
+
+
+1. Inicio
+2. cant,precio,desc (i[0-n])
+3. <<"Ingrese la cantidad de balones a comprar:"
+4. >>cant 
+5. <<"Ingrese el precio de cada balon:"
+6. >>precio
+7. Si(cant>0)Entonces
+    Si (cant<>1)Entonces
+        Si (cant<>2)Entonces
+            desc=(cant*precio*80)/100;
+        Sino
+            desc=(cant*precio*70)/100;
+        Fin_Si
+    Sino
+        desc=(cant*precio*50)/100
+    Fin_Si
+Sino
+<<"Ingrese una cantidad positiva"
+Fin_Si
+8. <<"Cantidad de Balones:",+cant
+9. <<"Precio de cada Balón:",+precio
+10. <<"Descuento:",+desc
+11. <<Total a Pagar:´+(precio*cant)-desc)
+12.Fin

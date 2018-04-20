@@ -1,0 +1,25 @@
+** Actividad 1 **
+
+
+1. Inicio
+2. dia(i[1-7])
+3. dia=0
+4. <<"Ingrese un número entre 1 y 7:"
+5. >>dia
+6. Dependiendo de(dia)Hacer{
+    opcion 1:
+        <<"Lunes"
+    opcion 2:
+        <<"Martes"
+    opcion 3:
+        <<"Miercoles"
+    opcion 4:
+        <<"Jueves"
+    opcion 5:
+        <<"Viernes"
+    opcion 6:
+        <<"Sabado"
+    opcion 7:
+        <<"Domingo"
+Fin_DD
+7. Fin
