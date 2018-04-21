@@ -4,22 +4,22 @@
 1. Inicio
 2. dia(i[1-7])
 3. dia=0
-4. <<"Ingrese un número entre 1 y 7:"
-5. >>dia
+4. Escribir "Ingrese un número entre 1 y 7:"
+5. Leer dia
 6. Dependiendo de(dia)Hacer{
     opcion 1:
-        <<"Lunes"
+        Escribir "Lunes"
     opcion 2:
-        <<"Martes"
+        Escribir "Martes"
     opcion 3:
-        <<"Miercoles"
+        Escribir "Miercoles"
     opcion 4:
-        <<"Jueves"
+        Escribir "Jueves"
     opcion 5:
-        <<"Viernes"
+        Escribir "Viernes"
     opcion 6:
-        <<"Sabado"
+        Escribir "Sabado"
     opcion 7:
-        <<"Domingo"
+        Escribir "Domingo"
 Fin_DD
 7. Fin

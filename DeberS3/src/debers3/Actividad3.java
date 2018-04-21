@@ -1,8 +1,8 @@
 /*
 1. Inicio
 2. x,y (i[0-n])
-3. <<"Ingrese el valor de X:"
-4. >>x
+3. Escribir "Ingrese el valor de X:"
+4. Leer x
 5. Si(x<>0)Entonces
    Si(x<0)Entonces
         y=3*x+10
@@ -11,7 +11,7 @@
     Fin_si
 Sino
     y=1
-6. <<"El valor de X es:",+x,"y el valor de Y es:",+y"
+6. Escribir "El valor de X es:",+x,"y el valor de Y es:",+y"
 7.Fin
  */
 package debers3;

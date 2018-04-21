@@ -4,34 +4,38 @@
 1.Inicio
 2. nombre(c[a-z],[BS],[A-Z])
 3. tipo,cant,precio (i[0-n])
-4. <<"Ingrese el nombre del Cliente:"
-5. <<"Ingrese el Tipo de Cliente"
-6. <<"Ingrese la cantidad de Celulares:"
-7. <<"Ingrese el precio de cada Celular:"
-8. Dependiendo de(tipo)Hacer{
+4. Escribir "Ingrese el nombre del Cliente:"
+5. Leer nombre
+6. Escribir "Ingrese el Tipo de Cliente"
+7. Leer tipo
+8. Escribir "Ingrese la cantidad de Celulares:"
+9. Leer cant
+10. Escribir "Ingrese el precio de cada Celular:"
+11. Leer precio
+12. Dependiendo de(tipo)Hacer{
     opcion 1:
-      <<"Nombre:",+nombre
-      <<"Tipo de Cliente:",+tipo
-      <<"Cantidad de Celulares:",+cant
-      <<"Precio por cada Celular:",+precio
-      <<"Subtotal a Pagar: ",+(cant*precio)
-      <<"Descuento:",+(((cant*precio)*10)/100)
-      <<"Valor final a Pagar:",+((cant*precio)-(((cant*precio)*10)/100)))
+      Escribir "Nombre:",+nombre
+      Escribir "Tipo de Cliente:",+tipo
+      Escribir "Cantidad de Celulares:",+cant
+      Escribir "Precio por cada Celular:",+precio
+      Escribir "Subtotal a Pagar: ",+(cant*precio)
+      Escribir "Descuento:",+(((cant*precio)*10)/100)
+      Escribir "Valor final a Pagar:",+((cant*precio)-(((cant*precio)*10)/100)))
     Opcion 2:
-      <<"Nombre:",+nombre
-      <<"Tipo de Cliente:",+tipo
-      <<"Cantidad de Celulares:",+cant
-      <<"Precio por cada Celular:",+precio
-      <<"Subtotal a Pagar: ",+(cant*precio)
-      <<"Descuento:",+(((cant*precio)*20)/100)
-      <<"Valor final a Pagar:",+((cant*precio)-(((cant*precio)*20)/100)))
+      Escribir "Nombre:",+nombre
+      Escribir "Tipo de Cliente:",+tipo
+      Escribir "Cantidad de Celulares:",+cant
+      Escribir "Precio por cada Celular:",+precio
+      Escribir "Subtotal a Pagar: ",+(cant*precio)
+      Escribir "Descuento:",+(((cant*precio)*20)/100)
+      Escribir "Valor final a Pagar:",+((cant*precio)-(((cant*precio)*20)/100)))
     Opcion 3:
-      <<"Nombre:",+nombre
-      <<"Tipo de Cliente:",+tipo
-      <<"Cantidad de Celulares:",+cant
-      <<"Precio por cada Celular:",+precio
-      <<"Subtotal a Pagar: ",+(cant*precio)
-      <<"Descuento:",+(((cant*precio)*30)/100)
-      <<"Valor final a Pagar:",+((cant*precio)-(((cant*precio)*30)/100)))
+      Escribir "Nombre:",+nombre
+      Escribir "Tipo de Cliente:",+tipo
+      Escribir "Cantidad de Celulares:",+cant
+      Escribir "Precio por cada Celular:",+precio
+      Escribir "Subtotal a Pagar: ",+(cant*precio)
+      Escribir "Descuento:",+(((cant*precio)*30)/100)
+      Escribir "Valor final a Pagar:",+((cant*precio)-(((cant*precio)*30)/100)))
 Fin_DD
-9. Fin
+13. Fin

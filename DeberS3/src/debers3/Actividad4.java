@@ -1,10 +1,10 @@
 /*
 1. Inicio
 2. cant,precio,desc (i[0-n])
-3. <<"Ingrese la cantidad de balones a comprar:"
-4. >>cant 
-5. <<"Ingrese el precio de cada balon:"
-6. >>precio
+3. Escribir "Ingrese la cantidad de balones a comprar:"
+4. Leer cant 
+5. Escribir "Ingrese el precio de cada balon:"
+6. Leer precio
 7. Si(cant>0)Entonces
     Si (cant<>1)Entonces
         Si (cant<>2)Entonces
@@ -16,12 +16,12 @@
         desc=(cant*precio*50)/100
     Fin_Si
 Sino
-<<"Ingrese una cantidad positiva"
+Escribir "Ingrese una cantidad positiva"
 Fin_Si
-8. <<"Cantidad de Balones:",+cant
-9. <<"Precio de cada Balón:",+precio
-10. <<"Descuento:",+desc
-11. <<Total a Pagar:´+(precio*cant)-desc)
+8. Escribir "Cantidad de Balones:",+cant
+9. Escribir "Precio de cada Balón:",+precio
+10. Escribir "Descuento:",+desc
+11. Escribir Total a Pagar:´+(precio*cant)-desc)
 12.Fin
 */
 package debers3;
